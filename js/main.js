@@ -70,7 +70,6 @@ function ValidateEmail() {
     var regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}/;
 
     if (email.match(regex)) {
-        alert("Valid email address!");
         return true;
     } else {
         alert("Invalid email address!");   

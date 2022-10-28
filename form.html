@@ -103,167 +103,169 @@
                     </div>
                     <!--end div progress-bar-->
                     <!--start div form-->
-                    <div class="box-body">
+                    <div class="form-box">
                         <form action="" method="">
-                            <div class="form-step form-active">
-                                <div class="input-group">
-                                    <label for="product-name">اسم المنتج المطلوب
-                                        <span>*</span>
-                                    </label>
-                                    <select name="product-name" class="input" id="product-name" required>
-                                        <option readonly>اختر اسم المنتج المطلوب</option>
-                                        <option>خرسانة جاهزة</option>
-                                        <option>أسمنت معبأ</option>
-                                        <option>أسمنت سايب</option>
-                                        <option>حديد تسليح</option>
-                                        <option>طوب أحمر طفلى مفرغ</option>
-                                        <option>طوب أسمنتي مصمت</option>
-                                    </select>
+                            <div class="box-body">
+                                <div class="form-step form-active">
+                                    <div class="input-group">
+                                        <label for="product-name">اسم المنتج المطلوب
+                                            <span>*</span>
+                                        </label>
+                                        <select name="product-name" class="input" id="product-name" required>
+                                            <option readonly>اختر اسم المنتج المطلوب</option>
+                                            <option>خرسانة جاهزة</option>
+                                            <option>أسمنت معبأ</option>
+                                            <option>أسمنت سايب</option>
+                                            <option>حديد تسليح</option>
+                                            <option>طوب أحمر طفلى مفرغ</option>
+                                            <option>طوب أسمنتي مصمت</option>
+                                        </select>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="quantity">الكمية 
+                                            <span>*</span>
+                                        </label>
+                                        <input type="number" class="input" name="quantity" placeholder="ادخل الكمية" id="quantity" required>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="unit">الوحدة
+                                            <span>*</span>
+                                        </label>
+                                        <select name="unit" id="unit" class="input" required>
+                                            <option readonly>اختر الوحدة</option>
+                                            <option>طن</option>
+                                            <option>م3</option>
+                                            <option>طوبة</option>
+                                            <option>بلوك</option>
+                                            <option>عدد</option>
+                                            <option>م2</option>
+                                            <option>مم</option>
+                                        </select>
+                                    </div>
+                                    <div class="image">
+                                        <button>أضف صورة للمنتج</button>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="step">رتبة الأسمنت
+                                            <span>*</span>
+                                        </label>
+                                        <select id="step" class="input" required>
+                                            <option>42.5</option>
+                                            <option>52.5</option>
+                                            <option>32.5</option>
+                                        </select>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="type">نوع الأسمنت
+                                            <span>*</span>
+                                        </label>
+                                        <select id="type" class="input" required>
+                                            <option>عادى</option>
+                                            <option>مقاوم</option>
+                                        </select>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="factory">المصنع</label>
+                                        <input type="text" class="input" name="factory" id="factory">
+                                    </div>
                                 </div>
-                                <div class="input-group">
-                                    <label for="quantity">الكمية 
-                                        <span>*</span>
-                                    </label>
-                                    <input type="number" class="input" name="quantity" placeholder="ادخل الكمية" id="quantity" required>
+                                <div class="form-step">
+                                    <div class="input-group">
+                                        <label for="place">مكان المشروع
+                                            <span>*</span>
+                                        </label>
+                                        <select name="place" class="input" id="place" required>
+                                            <option>6 أكتوبر - الجيزة</option>
+                                            <option>القاهرة الجديدة - التجمع - القاهرة</option>
+                                            <option>العاصمة الإدارية الجديدة - القاهرة</option>
+                                            <option>مدينة بدر - القاهرة</option>
+                                            <option>مدينة الشروق - القاهرة</option>
+                                            <option>العبور - القاهرة</option>
+                                        </select>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="address">عنوان المشروع 
+                                            <span>*</span>
+                                        </label>
+                                        <input type="address" class="input" name="address" placeholder="ادخل عنوان المشروع" id="address" required>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="round">مرحلة المشروع
+                                            <span>*</span>
+                                        </label>
+                                        <select name="unit" class="input" id="round" required>
+                                            <option>مرحلة التنفيذ</option>
+                                            <option>مرحلة تقديم المناقصات</option>
+                                        </select>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="date">عايز تنفذ الطلبية امتي؟ 
+                                            <span>*</span>
+                                        </label>
+                                        <input type="date" class="input" id="date" name="date" required>
+                                    </div>
                                 </div>
-                                <div class="input-group">
-                                    <label for="unit">الوحدة
-                                        <span>*</span>
-                                    </label>
-                                    <select name="unit" id="unit" class="input" required>
-                                        <option readonly>اختر الوحدة</option>
-                                        <option>طن</option>
-                                        <option>م3</option>
-                                        <option>طوبة</option>
-                                        <option>بلوك</option>
-                                        <option>عدد</option>
-                                        <option>م2</option>
-                                        <option>مم</option>
-                                    </select>
+                                <div class="form-step">
+                                    <div class="input-group">
+                                        <label for="type">طريقة الدفع 
+                                            <span>*</span>
+                                        </label>
+                                        <select id="type" class="input" required>
+                                            <option>كاش أو تحويل بنكى</option>
+                                            <option>اجل</option>
+                                        </select>
+                                        <p>الدفع بالآجل متاح فقط للمقاولين الذين نفذوا<br> أكثر من عمليتين وحسب شروط وموافقة المورد</p>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="details">تفاصيل أخرى خاصة بالطلب </label>
+                                        <textarea id="details" class="input" placeholder="تفاصيل أخرى مثل المواصفات والمقاسات والاعتمادات المطلوبة"></textarea>
+                                    </div>
                                 </div>
-                                <div class="image">
-                                    <button>أضف صورة للمنتج</button>
-                                </div>
-                                <div class="input-group">
-                                    <label for="step">رتبة الأسمنت
-                                        <span>*</span>
-                                    </label>
-                                    <select id="step" class="input" required>
-                                        <option>42.5</option>
-                                        <option>52.5</option>
-                                        <option>32.5</option>
-                                    </select>
-                                </div>
-                                <div class="input-group">
-                                    <label for="type">نوع الأسمنت
-                                        <span>*</span>
-                                    </label>
-                                    <select id="type" class="input" required>
-                                        <option>عادى</option>
-                                        <option>مقاوم</option>
-                                    </select>
-                                </div>
-                                <div class="input-group">
-                                    <label for="factory">المصنع</label>
-                                    <input type="text" class="input" name="factory" id="factory">
+                                <div class="form-step">
+                                    <div class="input-group">
+                                        <label for="company">اسم شركتك ايه؟ 
+                                            <span>*</span>
+                                        </label>
+                                        <input type="text" class="input" name="company" placeholder="اسم شركتك ايه؟" id="company" required >
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="user">اسم الشخص المفوض ثنائي   
+                                            <span>*</span>
+                                        </label>
+                                        <input type="text" class="input" name="user" placeholder="اسم الشخص المفوض ثنائي" id="user" required >
+                                    </div> 
+                                    <div class="input-group">
+                                        <label for="phone">رقم الموبايل المسجل عالواتساب   
+                                            <span>*</span>
+                                        </label>
+                                        <input type="phone" class="input" name="phone" placeholder=" مثال: 01012345678 " id="phone" required >
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="email">ايميلك</label>
+                                        <input type="email" class="input" name="email" placeholder="مثال: mohamed@gmail.com" id="email" required checked>
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="checkbox" name="box">
+                                        <label class="check">تذكرني على هذا الجهاز</label>
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="checkbox" name="box">
+                                        <label class="check">تذكر المشروع</label>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="form-step">
-                                <div class="input-group">
-                                    <label for="place">مكان المشروع
-                                        <span>*</span>
-                                    </label>
-                                    <select name="place" class="input" id="place" required>
-                                        <option>6 أكتوبر - الجيزة</option>
-                                        <option>القاهرة الجديدة - التجمع - القاهرة</option>
-                                        <option>العاصمة الإدارية الجديدة - القاهرة</option>
-                                        <option>مدينة بدر - القاهرة</option>
-                                        <option>مدينة الشروق - القاهرة</option>
-                                        <option>العبور - القاهرة</option>
-                                    </select>
-                                </div>
-                                <div class="input-group">
-                                    <label for="address">عنوان المشروع 
-                                        <span>*</span>
-                                    </label>
-                                    <input type="address" class="input" name="address" placeholder="ادخل عنوان المشروع" id="address" required>
-                                </div>
-                                <div class="input-group">
-                                    <label for="round">مرحلة المشروع
-                                        <span>*</span>
-                                    </label>
-                                    <select name="unit" class="input" id="round" required>
-                                        <option>مرحلة التنفيذ</option>
-                                        <option>مرحلة تقديم المناقصات</option>
-                                    </select>
-                                </div>
-                                <div class="input-group">
-                                    <label for="date">عايز تنفذ الطلبية امتي؟ 
-                                        <span>*</span>
-                                    </label>
-                                    <input type="date" class="input" id="date" name="date" required>
-                                </div>
+                            <!--start div actions-->
+                            <div class="actions">
+                                <ul>
+                                    <li><input type="submit" class="btn prev" value="السابق"></li>
+                                    <li><input type="submit" class="btn next" value="التالى"></li>
+                                    <input type="submit" class="submit" onclick="ValidateEmail()">
+                                </ul>
                             </div>
-                            <div class="form-step">
-                                <div class="input-group">
-                                    <label for="type">طريقة الدفع 
-                                        <span>*</span>
-                                    </label>
-                                    <select id="type" class="input" required>
-                                        <option>كاش أو تحويل بنكى</option>
-                                        <option>اجل</option>
-                                    </select>
-                                    <p>الدفع بالآجل متاح فقط للمقاولين الذين نفذوا<br> أكثر من عمليتين وحسب شروط وموافقة المورد</p>
-                                </div>
-                                <div class="input-group">
-                                    <label for="details">تفاصيل أخرى خاصة بالطلب </label>
-                                    <textarea id="details" class="input" placeholder="تفاصيل أخرى مثل المواصفات والمقاسات والاعتمادات المطلوبة"></textarea>
-                                </div>
-                            </div>
-                            <div class="form-step">
-                                <div class="input-group">
-                                    <label for="company">اسم شركتك ايه؟ 
-                                        <span>*</span>
-                                    </label>
-                                    <input type="text" class="input" name="company" placeholder="اسم شركتك ايه؟" id="company" required>
-                                </div>
-                                <div class="input-group">
-                                    <label for="user">اسم الشخص المفوض ثنائي   
-                                        <span>*</span>
-                                    </label>
-                                    <input type="text" class="input" name="user" placeholder="اسم الشخص المفوض ثنائي" id="user" required>
-                                </div> 
-                                <div class="input-group">
-                                    <label for="phone">رقم الموبايل المسجل عالواتساب   
-                                        <span>*</span>
-                                    </label>
-                                    <input type="phone" class="input" name="phone" placeholder=" مثال: 01012345678 " id="phone" required>
-                                </div>
-                                <div class="input-group">
-                                    <label for="email">ايميلك</label>
-                                    <input type="email" class="input" name="email" placeholder="مثال: mohamed@gmail.com" id="email">
-                                </div>
-                                <div class="input-group">
-                                    <input type="checkbox" name="box">
-                                    <label class="check">تذكرني على هذا الجهاز</label>
-                                </div>
-                                <div class="input-group">
-                                    <input type="checkbox" name="box">
-                                    <label class="check">تذكر المشروع</label>
-                                </div>
-                            </div>
+                            <!--end div actions-->
                         </form>
                     </div>
                     <!--end div form-->
-                    <!--start div actions-->
-                    <div class="actions">
-                        <ul>
-                            <li><a href="#" class="btn prev">السابق</a></li>
-                            <li><a href="#" class="btn next">التالي</a></li>
-                            <input type="submit" onclick="ValidateEmail()">
-                        </ul>
-                    </div>
-                    <!--end div actions-->
                 </div>
             </div>
         </section>
